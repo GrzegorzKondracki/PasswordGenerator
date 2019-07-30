@@ -15,13 +15,19 @@
             align-items: center;
         }
 
+        body {
+            background-image: url(night-sky.jpg);
+            background-size: cover;
+            margin-top: 10vh;
+        }
+
         button {
             margin-top: 20px;
             padding: 20px;
-            border: 5px solid rgb(105, 133, 211);
+            border: 5px solid rgb(255, 255, 255);
             background-color: white;
             font-weight: bold;
-            border-radius: 5px;
+            border-radius: 15px;
             transition: .2s;
             font-size: 24px;
 
@@ -29,6 +35,7 @@
 
         button:hover {
             background-color: rgb(105, 133, 211);
+            border: 5px solid rgb(105, 133, 211);
             color: white;
         }
 
@@ -37,11 +44,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            background-color: rgba(1, 1, 1, 0.5);
+            border-radius: 15px;
+            color: white;
 
         }
 
         div {
-            padding: 5px;
+            padding: 10px;
         }
     </style>
 </head>
